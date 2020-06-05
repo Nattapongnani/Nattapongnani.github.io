@@ -526,7 +526,7 @@ span {
   padding: 20px;
   border-radius: 4px;
   text-align: center;
-  border: 1px solid #ECECEC;
+  border: 1px solid #B900D5;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
 }
 #Testimonials.content-section {
@@ -544,7 +544,7 @@ span {
   margin: -17px auto 0;
   display: table;
   width: auto;
-  background-color: #02ccba;
+  background-color: #B900D5;
   color: #fff;
   padding: 9px 35px;
   border-radius: 12px;
@@ -737,6 +737,30 @@ footer.footer p.small a:hover, footer.footer p.small a.focus {
 #imgs
 {
 	padding-left: 0px;
+}
+ #official-info 
+ {
+	background: rgb(230, 230, 230);
+	width: 70%;
+	height: 580px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 10px 0px 10px 100px;
+	border: 2px dashed rgb(185, 0, 213);
+	padding: 40px;
+}
+        
+#tt
+{
+	width: 220px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 6px ridge red;
+}
+
+.genders
+{
+	color: #ffffff;
 }
 
 /* Styles Begins */
