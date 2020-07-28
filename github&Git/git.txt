@@ -6,4 +6,98 @@ $ git push          // Push To Remote Repository
 $ git pull          // Pull Latest From Remote Repository
 $ git clone         // Clone Repository Into A New Directory
 
+$ touch gitignore 
+some.html     //ignore some.html
+*.html        //ignore .html files
+/dir1         //ignore folder dir1
+
+step 1: 
+$ git init 
+$ git config --global user.name '<name>'
+$ git config --global user.email '<gmail>'
+
+step 2:
+$ git status
+
+step 3:
+$ git add <file>    //add file
+$ git .             //add every files
+$ git add *.html    //add every .html files
+
+step 4:
+$ git rm --cached <file>
+
+step 5: 
+$ git commit
+type -> Initial commit
+
+step 6: wanna change after commit
+$ git add <file>
+$ git commit -m 'changed <file>'
+
+---------------------------------------------------------branch
+$ git branch <name>
+$ git status 
+$ git commit -m 'another change'  //change branch
+$ git checkout <name>              //switch to branch login
+$ touch login.html
+$ git add .
+$ git commit -m '<name> form'
+//swtch back
+$ git checkout master
+$ git merge <name>
+edit -> type "added <name>"
+-------------------------------------------------------branch
+
+*******************************************************github remote
+$ git remote
+$ git remote add origin https://github.com/Nattapongnani/mpi_basic.git
+$ git remote       
+origin  //it show origin is concert
+$ git push -u origin master   //it will open login page.
+*******************************************************github remote
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~change and add some files 
+$ git commit -m 'changde <file>'
+$ git commit -m 'Added <file>'
+$ git push                          //the end
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~change and add some files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
