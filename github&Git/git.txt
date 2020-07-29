@@ -62,7 +62,12 @@ $ git push -u origin master   //it will open login page.
 $ git add <file>
 $ git commit -m 'changde <file>'
 $ git commit -m 'Added <file>'
-$ git push -u origin master                          //the end
+
+$ git pull
+Added <folder or file>          //in second line
+$ git push -u origin master      //the end
+or
+$ git push
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~change and add some files
 
 
