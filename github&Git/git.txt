@@ -59,9 +59,10 @@ $ git push -u origin master   //it will open login page.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~change and add some files 
+$ git add <file>
 $ git commit -m 'changde <file>'
 $ git commit -m 'Added <file>'
-$ git push                          //the end
+$ git push -u origin master                          //the end
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~change and add some files
 
 
