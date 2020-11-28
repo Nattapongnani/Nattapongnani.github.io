@@ -78,6 +78,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/Nattapongnani/214221_DataSturcture.git
 git push -u origin master
 
+//changed
+git add <file>
+git commit
+git push
 
 
 
