@@ -78,9 +78,15 @@ git commit -m "first commit"
 git remote add origin https://github.com/Nattapongnani/214221_DataSturcture.git
 git push -u origin master
 
-//changed
+
+//if you want to change a file
 git add <file>
-git commit
+git commit -m 'changed <file>'
+
+// if you want to remove a file
+git rm --cached <file>
+
+//if you finish change or remove a file then push
 git push
 
 
